@@ -1,0 +1,19 @@
+.songList-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1.5rem;
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0.5rem;
+    color: #181861;
+  }
+
+  &__duration {
+   margin-left: 0.5rem;
+   padding-bottom: 1rem;
+   color: #72728C;
+  }
+}
