@@ -5,7 +5,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Button from '@material-ui/core/Button';
 import './styles/songList.scss';
 
-export default function SongList({ songs }) {
+export default function SongList({ songs, selectSong }) {
   return (
     <Container maxWidth="md">   
         {songs.map(song =>
@@ -18,7 +18,11 @@ export default function SongList({ songs }) {
             </div>
 
             <CardActions>
-              <Button variant="contained" color="primary">
+              <Button 
+                variant="contained" 
+                color="primary"
+                onClick={() => selectSong(song)}
+              >
                 Select
               </Button>
             </CardActions>
