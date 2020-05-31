@@ -10,9 +10,7 @@ const songsReducer = () => {
   ];
 };
 
-const initialState = songsReducer()[1];
-
-const selectedSongReducer = (selectedSong = initialState, action) => {
+const selectedSongReducer = (selectedSong = null, action) => {
   if (action.type === 'SONG_SELECTED') {
     return action.payload;
   }

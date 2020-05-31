@@ -3,8 +3,6 @@ import SongDetails from './SongDetails';
 
 
 const mapStateToProps = state => {
-  console.log('song detail:', state);
-  
   return { selectedSong: state.selectedSong }
 };
 
