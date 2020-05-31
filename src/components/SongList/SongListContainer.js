@@ -8,7 +8,6 @@ const mapDispatchToProps = {
 };
 
 const mapStateToProps = (state) => {
-  // console.log(state);
   return { songs: state.songs }
   // above means: this.props === {songs: state.songs}
 };

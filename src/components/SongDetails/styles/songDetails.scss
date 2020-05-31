@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__title {
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times;
+
+  }
+}
